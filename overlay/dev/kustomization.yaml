@@ -1,0 +1,11 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+namespace: kafka
+resources:
+- namespace.yaml
+- secret.yaml
+- ../../base
+
+images:
+- name: jcy0308/pdf-module
+  newTag: c3e0a3004e63a6410d307cd2b5ebbecc30dacf42
