@@ -7,4 +7,4 @@ resources:
 
 images:
 - name: stringju/argo-test
-  newTag: adf37c5ce066a881c540078b1cc5de3df54d1ce0
+  newTag: 2f981f915a69aba21609bf83d2f560c3e2985785
