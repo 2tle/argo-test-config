@@ -16,8 +16,8 @@ spec:
         paths:
           - backend:
               service:
-                name: be-service
+                name: argocd-study-scg
                 port:
                   number: 80
-            path: /v1
+            path: /
             pathType: Prefix
